@@ -40,3 +40,57 @@
 .read-the-docs {
   color: #888;
 }
+
+.content, .contentPokemon{
+  border-radius: 10px;
+}
+
+.content{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+}
+
+.contentPokemon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 450px;
+  background-color: white;
+}
+
+.electric{
+  background-color: orange;
+}
+
+.normal{
+  background-color: beige;
+}
+
+.rock{
+  background-color: rgb(94, 94, 94);
+}
+
+.fairy{
+  background-color: pink;
+}
+
+h2{
+  color: black;
+}
+
+.pokemon{
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.pokemon img{
+  width: 250px;
+}
